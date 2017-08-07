@@ -1,0 +1,16 @@
+{{ name}}, this is a test
+# Welcome
+Hi {{ name.split(' ')[0] }},
+
+I hope this works.
+
+Your full name is {{ name}}. Wouldn't it be fun to [send yourself an email](mailto:{{ email }})?
+
+Have fun.
+
+This message was sent from {{ sender }}. That is [{{ sender_name }}](mailto:{{ sender_email }}).
+
+It was sent to {{ recipient }}.
+
+## Package
+This email was send using [MailMerge](https://github.com/chrisnorman7/mailmerge) written by [Chris Norman](https://github.com/chrisnorman7).
